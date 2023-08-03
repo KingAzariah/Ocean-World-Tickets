@@ -31,3 +31,8 @@ const secondH4 = document.querySelector("#secondH4");
 preference.onchange = function() {
   secondH4.innerText = "Your preference is : " + preference.value;
 };
+const submitbtn = document.querySelector("#submit");
+const submitH4 = document.querySelector("#submitH4");
+submitbtn.onclick = function() {
+    submitH4.innerText = "Tickets booked!";
+}
